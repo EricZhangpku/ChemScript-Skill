@@ -53,7 +53,7 @@ cd Desktop
 ```
 然后输入以下命令将仓库克隆下来：
 ```bash
-git clone https://github.com/EricZhangpku/ChemScript-Skill
+git clone https://github.com/EricZhangpku/ChemScript-Skill.git
 ```
 
 ### 2. 进入正确的目录
