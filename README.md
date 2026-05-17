@@ -1,10 +1,14 @@
 # ChemScript-Skill 使用教程
 
-🎉 欢迎使用 **ChemScript-Skill** (v1.2.0)！这是一个专门用于撰写生动有趣且兼具科学性的化学科普视频文案与分镜脚本的工具，基于 Claude Code 的自定义 Skill 功能运行。
+> **v1.2.1 已发布** — `references/` 新增一篇由 `claude-sonnet-4-6` 和 `DeepSeek-v4-pro` 共同生成并由本人修改过的高质量参考文案：`碘蒸气检测指纹-青小协.md`；此外为避免人物名称太随意导致模型不倾向于参考，将原先两篇 AI 生成文案中的“张三”、“李四”改为了“张三丰”、“李四海”。
+
+🎉 欢迎使用 **ChemScript-Skill** (v1.2.1)！这是一个专门用于撰写生动有趣且兼具科学性的化学科普视频文案与分镜脚本的工具，基于 Claude Code 的自定义 Skill 功能运行。
 
 📦 **仓库地址**：[https://github.com/EricZhangpku/ChemScript-Skill](https://github.com/EricZhangpku/ChemScript-Skill)
 
-> 💡 **最佳模型推荐**：本 SKILL 深度依赖复杂的指令遵循和长文本生成能力，强烈建议使用 **Claude 4.6 Sonnet (及以上版本)** 或更强大的模型运行。使用 DeepSeek 等其他模型可能会导致格式错乱、AI 风格明显等令人不快的问题。
+💡 **最佳模型推荐**：本 SKILL 深度依赖复杂的指令遵循和长文本生成能力。强烈建议使用 **`claude-sonnet-4-6`**，**`DeepSeek-v4-pro`** 或更强大的模型运行。使用文本生成能力较弱的模型可能会导致格式错乱、AI 风格明显等令人不快的问题。
+
+> 🤖 **“最佳模型推荐”更正说明**：本 SKILL 被开发出来时 `DeepSeek-v4` 刚刚发布不久。当时本人用 `DeepSeek-v3` 相关模型生成的文稿质量远不如 `claude-sonnet` 系列，因此最初的 `README.md` 文档中并不推荐 `DeepSeek` 系列模型。但本人尝试过 `DeepSeek-v4-pro` 后发现其文稿生成质量已经比肩甚至超过了 `claude-sonnet-4-6`，而且价格实惠得多。故在此强烈推荐使用 `DeepSeek-v4-pro` 的 API 进行本 SKILL 的文稿生成工作。
 
 ---
 
